@@ -6,7 +6,7 @@ const sendgridtransport=require('nodemailer-sendgrid-transport');
 const {check,validationResult}=require('express-validator/check');
 const transporter=nodemailer.createTransport(sendgridtransport({
   auth:{
-    api_key:'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'
+    api_key:'dummyapikey'
   }
 }));
 exports.getLogin = (req, res, next) => {
